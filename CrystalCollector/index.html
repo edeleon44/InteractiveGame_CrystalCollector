@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collerctor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="card text-white bg-info mb-3 blueTitleCard" style="max-width: 50rem;">
+  <div class="card-header">Crystal Collector</div>
+    <div class="card-body">
+      <h4 class="card-title">Instructions</h4>
+     <p class="card-text">
+     <ol> 
+      <li> There will be four crystals displayed as buttons on the page.</li>
+
+      <li> The player will be shown a random number at the start of the game.</li>
+
+      <li> When the player clicks on a crystal, it will add a specific amount of points to the player's total score.</li> 
+
+      <li> The player wins if their total score matches the random number from the beginning of the game.</li>
+
+      <li> The player loses if their score goes above the random number.</li>
+   </ol>
+   </p>
+    </div>
+  </div>
+
+<div class="row contentsRow">
+
+  <div class="col-md-4">
+    <div class="card statsCard" style="width: 20rem;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><span id="numGuesses">Number To Guess:</span></li>
+        <li class="list-group-item"><span id="currentNum">Current Status:</span></li>
+        <li class="list-group-item"><span id="numWins">Wins:</span></li>
+        <li class="list-group-item"><span id="numLosses">Losses:</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-md-8">
+	 <div class="card text-white bg-info mb-3" style="max-width: 100rem;">
+      <div class="card-header">Pick Your Crystals!</div>
+        <div class="card-body">
+          <h4 class="card-title">Choice of Random Crystals! Test your memory!</h4>
+            
+          <p class="card-text">
+      <button type="button" id="crystal1" value="1">
+        <img id="crystals" src="assets/images/blue.PNG"> 
+      </button>
+
+      <button type="button" id="crystal2" value="2">
+    	 <img id="crystals" src="assets/images/red.PNG">
+      </button>
+    	
+      <button type="button" id="crystal3" value="3">
+        <img id="crystals" src="assets/images/yellow.PNG">
+      </button>
+       
+      <button type="button" id="crystal4" value="4"> 
+    	 <img id="crystals" src="assets/images/green.PNG">
+      </button>
+          </p>
+
+        </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+	
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"</script> -->
+<script type="text/javascript" src="assets/javascript/game.js"> 
+
+</script>
+
+	
+
+
+
+
+
+</body>
+</html>
